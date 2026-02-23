@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+  /* absolute bottom-4 表示距底部 1rem (16px) */
   h5 {
     @apply absolute px-6 duration-200 w-52 bottom-4 md:bottom-8 md:px-10 group-hover:scale-110 group-hover:text-black;
   }
